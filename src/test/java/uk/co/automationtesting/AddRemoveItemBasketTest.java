@@ -45,6 +45,7 @@ public class AddRemoveItemBasketTest extends Hooks {
         sCart.getDeleteItemTwo().click();
         waitForElementInvisible(sCart.getDeleteItemTwo(), 10);
         Assert.assertEquals(sCart.getTotalValue().getText(),"$45.24");
+        System.out.println("This is a new Git Commit");
 
 
     }
