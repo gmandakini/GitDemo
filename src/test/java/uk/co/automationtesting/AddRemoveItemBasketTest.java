@@ -50,4 +50,19 @@ public class AddRemoveItemBasketTest extends Hooks {
 
 
     }
+
+    @Test
+    public void sampleTest1() {
+        System.out.println("This is Develop Branch addition");
+    }
+
+    @Test
+    public void sampleTest2() {
+        System.out.println("This is Develop Branch addition");
+    }
+
+    @Test
+    public void sampleTest3() {
+        System.out.println("This is Develop Branch addition");
+    }
 }
